@@ -173,7 +173,7 @@ def ask_question(question, documents, conversation_history):
 def main():
     video_path = '":"https://video-private-assets.canva.com/VAFm1yLTPEs/v/b75f62ece6.mp4?exp=1716220620000&cf-ck=p05TDTP8uTUMRrhbkQ1rWbXEaoTR6XwnAgDBM7YmZo8&cf-sig=dew3zZD6sfih511HFQ1xixEaI-kmHc3hT-CCwBd4_5A&cf-sig-kid=CO7cCjZ_YiI=&sig=B3-NZIPojJ3cdz43iAIfYPq893aCt_x71elwVC3o8rI&sig-kid=GzFgFdhXD'
     documents = []
-    openai.api_key='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'
+    openai.api_key=' '
     
     
     # Read additional text file
