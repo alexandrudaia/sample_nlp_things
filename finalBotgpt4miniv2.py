@@ -9,11 +9,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 nest_asyncio.apply()
 
 # Set up your OpenAI API key
-openai.api_key = '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'
-
+openai.api_key = ' 
 client = OpenAI(
-    api_key = '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',
-)
+    api_key = ' 
 
 def read_file(file_path, encoding='utf-8'):
     with open(file_path, 'r', encoding=encoding) as file:
