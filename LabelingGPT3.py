@@ -22,7 +22,7 @@ train.head(3)
 import os
 import openai
 
-openai.api_key ="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"
+openai.api_key =" "
 
 start_sequence = "<<"
 restart_sequence = "\n\nQ: "
@@ -51,7 +51,7 @@ for row in  range(100):
     #print("question " , prpt)
     start_sequence = "\nA:"
     restart_sequence = "\n\nQ: "
-    openai.api_key ="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"
+    openai.api_key =" "
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=prpt,
@@ -107,7 +107,7 @@ for row in  range(100):
     #print("question " , prpt)
     start_sequence = "\nA:"
     restart_sequence = "\n\nQ: "
-    openai.api_key ="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"
+    openai.api_key =""
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=prpt,
