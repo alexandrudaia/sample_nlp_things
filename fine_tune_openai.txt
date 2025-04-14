@@ -22,5 +22,5 @@ Then in terminal do :
 	  * and the  file will be  renamed 
 	             temp_big_prepared.jsonl
  
-      openai --api-key "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" api fine_tunes.create -t temp_big_prepared.jsonl -m curie
+      openai --api-key " add key here" api fine_tunes.create -t temp_big_prepared.jsonl -m curie
 					
