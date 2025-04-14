@@ -82,7 +82,7 @@ def ask_question(question, documents, conversation_history):
 def main():
     video_ids = ['aVawpb2H3vg']  # Replace with your actual YouTube video IDs
     documents = []
-    openai.api_key='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'
+    openai.api_key=' '
     
     for vid in video_ids:
         text = get_transcript(vid)
