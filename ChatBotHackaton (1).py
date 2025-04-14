@@ -214,7 +214,7 @@ documents
 import openai
 
  
-openai.api_key='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'
+openai.api_key=''
  
 
 def generate_answer_from_text_file(file_path, question):
