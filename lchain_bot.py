@@ -2,7 +2,7 @@
 import openai 
 inport os
 import sys
-openai.api_key='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'
+openai.api_key=' '
 
 #! pip install pypdf
 ################################document loading ###################################################
@@ -16,7 +16,7 @@ print(page.metadata)
 
 ############################# document spliting ####################################################
 #pip install tiktoken
-!export OPENAI_API_KEY="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"
+!export OPENAI_API_KEY=" "
 from langchain.text_splitter import CharacterTextSplitter
 text_splitter = CharacterTextSplitter(
     separator="\n",
