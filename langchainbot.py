@@ -12,8 +12,8 @@ import openai
 import os
 import sys
 
-openai.api_key='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'
-os.environ['OPENAI_API_KEY'] = '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'
+openai.api_key='  '
+os.environ['OPENAI_API_KEY'] = ''
 
  
 ################################document loading ###################################################
